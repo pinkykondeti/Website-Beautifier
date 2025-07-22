@@ -51,7 +51,7 @@ Preview the improved design live.
 Download the enhanced version.
 
 📂 Project Structure
-
+```
 website-beautifier-ai/
 ├── .env.local               # OpenAI API key config
 ├── package.json             # Dependencies
@@ -69,6 +69,7 @@ website-beautifier-ai/
 │   └── lib/
 │       └── openaiFixer.js   # GPT code logic
 
+```
 
 🔧 Setup Instructions
 
