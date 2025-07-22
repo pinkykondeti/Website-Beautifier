@@ -53,21 +53,22 @@ Download the enhanced version.
 📂 Project Structure
 
 website-beautifier-ai/
-├── .env.local                 # OpenAI API key config
-├── package.json               # Dependencies
-├── vite.config.js             # Build config
-├── public/                    # Static assets
-└── src/
-    ├── App.jsx                # Main application UI
-    ├── main.jsx               # React entry point
-    ├── components/
-    │   ├── FileUploader.jsx
-    │   ├── ThemeSelector.jsx
-    │   ├── LivePreview.jsx
-    │   ├── CodeFixerPanel.jsx
-    │   └── DownloadButton.jsx
-    └── lib/
-        └── openaiFixer.js     # GPT code logic
+├── .env.local               # OpenAI API key config
+├── package.json             # Dependencies
+├── vite.config.js           # Build config
+├── public/                  # Static assets
+├── src/
+│   ├── App.jsx              # Main application UI
+│   ├── main.jsx             # React entry point
+│   ├── components/
+│   │   ├── FileUploader.jsx
+│   │   ├── ThemeSelector.jsx
+│   │   ├── LivePreview.jsx
+│   │   ├── CodeFixerPanel.jsx
+│   │   └── DownloadButton.jsx
+│   └── lib/
+│       └── openaiFixer.js   # GPT code logic
+
 
 🔧 Setup Instructions
 
